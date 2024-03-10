@@ -1,9 +1,10 @@
 import os
 from flask import Flask, jsonify, request
 from datetime import datetime
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
