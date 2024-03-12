@@ -57,13 +57,14 @@ def upload_image():
         img_array = preprocess_image(image_path)
 
         predictions = model.predict(img_array)
-
+  
         predicted_class = class_labels[np.argmax(predictions)]
+        status = check(predictions)
         logging.info(f"Predicted class: {predicted_class}")
         logging.info(f"Predictions: {predictions.tolist()}")
-        logging.info(f"Status: {check(predictions)}")
+        logging.info(f"Status: {status}")
 
-        return jsonify({'message': 'Image uploaded successfully', 'predicted_class': predicted_class, 'predictions': predictions.tolist(),'Status':check(predictions)}), 200
+        return jsonify({'message': 'Image uploaded successfully', 'predicted_class': predicted_class,'result': status}), 200
 
     except Exception as e:
         logging.error(str(e))
