@@ -29,27 +29,13 @@ pip install Flask tensorflow flask_cors tensorflow-addons numpy matplotlib panda
 ```
 3. Start the API server: 
 ```bash
-python api.py
+python app.py
 ```
 
-**Frontend:**
-
-1. Clone the frontend's GitHub repository: 
-```bash
-git clone https://github.com/AhmedHoussamBouzine/client-ml-project
-```
-2. Install dependencies: 
-```bash
-npm install @angular/cli && npm i
-```
-3. Start the web server: 
-```bash
-ng serve
-```
 **Notes:**
 
 * The backend utilizes Flask for the API and TensorFlow for segmentation.
-* The frontend is an AngularJS application that interacts with the API to display segmentation results.
+* The frontend is an Angular application that interacts with the API to display segmentation results.
 
 By contributing to this project, you can play a role in improving brain tumor diagnosis and treatment.
 
