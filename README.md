@@ -1,23 +1,21 @@
 # Brain Tumor Segmentation Project
 
-**Introduction:**
-
 This project tackles the critical challenge of automatic brain tumor segmentation from MRI images. It combines deep learning and image processing techniques to offer an accurate and efficient tool for tumor diagnosis and monitoring.
 
-**Architecture:**
+### Architecture:
 
 A visual representation of the project architecture is available here: 
 <p align="center">
   <img src="architecture.jpg" alt="Architecture" width="500"/>
 </p>
 
-**Model Evaluation:**
+### Model Evaluation:
 
 | Metric | Accuracy | Precision | Recall | F1-Score |
 |--------|----------|-----------|--------|----------|
 | Value |  79.8%    |   82.32%  | 77.91% |  77.64%  |
 
-**Project Execution:**
+### Project Execution:
 
 **Backend:**
 
@@ -38,7 +36,7 @@ A visual representation of the project architecture is available here:
 
 By contributing to this project, you can play a role in improving brain tumor diagnosis and treatment.
 
-### BY : 
+### *BY* : 
 ### MOUAKKAL Nouhayla II-BDCC2
 ### BOUZINE Ahmed Houssam II-BDCC2
 
