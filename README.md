@@ -8,7 +8,7 @@ This project tackles the critical challenge of automatic brain tumor segmentatio
 
 A visual representation of the project architecture is available here: 
 <p align="center">
-  <img src="./gitImage/architecture.png?raw=true" alt="Architecture" width="500"/>
+  <img src="architecture.jpg" alt="Architecture" width="500"/>
 </p>
 
 **Model Evaluation:**
