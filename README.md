@@ -19,16 +19,33 @@ A visual representation of the project architecture is available here:
 
 **Backend:**
 
-1. Clone the GitHub repository: `git clone https://github.com/NouhaylaMouakkal/Brain-Tumor-Segmentation`
-2. Install dependencies: `pip install Flask tensorflow flask_cors tensorflow-addons numpy matplotlib pandas seaborn scikit-learn`
-3. Start the API server: `python api.py`
+1. Clone the GitHub repository:
+```bash
+git clone https://github.com/NouhaylaMouakkal/Brain-Tumor-Segmentation
+```
+2. Install dependencies: 
+```bash
+pip install Flask tensorflow flask_cors tensorflow-addons numpy matplotlib pandas seaborn scikit-learn
+```
+3. Start the API server: 
+```bash
+python api.py
+```
 
 **Frontend:**
 
-1. Clone the frontend's GitHub repository: `git clone https://github.com/AhmedHoussamBouzine/client-ml-project`
-2. Install dependencies: `npm install @angular/cli && npm i`
-3. Start the web server: `ng serve`
-
+1. Clone the frontend's GitHub repository: 
+```bash
+git clone https://github.com/AhmedHoussamBouzine/client-ml-project
+```
+2. Install dependencies: 
+```bash
+npm install @angular/cli && npm i
+```
+3. Start the web server: 
+```bash
+ng serve
+```
 **Notes:**
 
 * The backend utilizes Flask for the API and TensorFlow for segmentation.
