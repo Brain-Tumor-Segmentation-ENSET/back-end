@@ -69,7 +69,6 @@ def upload_image():
     except Exception as e:
         logging.error(str(e))
         return jsonify({'error': str(e)}), 500
-
-
+    
 if __name__ == '__main__':
     app.run(debug=True)
